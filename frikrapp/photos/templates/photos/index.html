@@ -1,0 +1,15 @@
+{% extends 'photos/base.html' %}
+
+{%block head_title%}
+
+    Bienvenido a Frikr! Como Flikr pero en friki
+
+{%endblock%}
+
+{% block body_content %}
+
+    <h1>Bienvenido a Frikr</h1>
+    <p>Frikr es como Fliker pero en friki</p>
+    {% include 'photos/include/photo_list.html'%}
+
+{%endblock%}
