@@ -46,4 +46,3 @@ class Photo(models.Model):
         for badword in BADWORDS:
             if badword in self.description:
                 raise ValidationError(badword + u' no esta permitido')
-            
